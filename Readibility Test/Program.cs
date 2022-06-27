@@ -41,8 +41,9 @@ if (IsDigitsOnly(option))
     Console.WriteLine("Place your thumb on the '+' button on your keyboard's numpad.");
     Thread.Sleep(2500);
     Console.WriteLine("Done!");
-    Console.WriteLine("You are not ready! (I know this because a person who is ready would never launch / start this program)!");
+    Console.WriteLine("You are not ready! (I know this because a person who is ready would never launch / start this program)!\r\n\r\nIf you still feel like doing whatever it is, then go for it!\r\n");
     Console.WriteLine("\r\nThank you for using the Readibility Test! (Github/Jamium/Readibility-Test)");
+    Console.ReadLine();
 }
 else
 {
